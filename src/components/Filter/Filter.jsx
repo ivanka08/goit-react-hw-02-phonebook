@@ -13,7 +13,6 @@ export const Filter =({onChange }) => {
             className={css.input}
             type="text"
             onChange={evt => onChange(evt.currentTarget.value)}
-          //   value={Filter.props.filter}
           >
           </input>
         </label>

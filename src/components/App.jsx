@@ -32,7 +32,6 @@ export  class App extends Component {
   
     const filteredContactsArray = contacts.filter(contact =>
       contact.name.toLowerCase().includes(normalizedValue));
-    // console.log(filteredContactsArray);
     return filteredContactsArray;
   }
   

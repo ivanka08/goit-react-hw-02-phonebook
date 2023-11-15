@@ -23,18 +23,6 @@ export const Contact = ({ contact, onDelete }) => {
 }
 
 
-
-// const showDetail = (evt) => {
-//   // console.log(evt.currentTarget);
-//   const liRef = evt.currentTarget;
-//   const btnRef = liRef.childNodes[1];
-//   const contactRef = liRef.childNodes[0];
-//   const numberRef = contactRef.childNodes[1];
-
-//   numberRef.classList.toggle(`${css.visually_hidden}`)
-//   btnRef.classList.toggle(`${css.visually_hidden}`)
-// }
-
 Contact.propTypes = {
   contact: PropTypes.shape({
       id: PropTypes.string.isRequired,
